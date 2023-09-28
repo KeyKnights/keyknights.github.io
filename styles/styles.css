@@ -18,11 +18,23 @@ body {
 
 nav {
     justify-content: space-between;
+    border-bottom: transparent solid 2px;
+    transition: border-bottom-color 300ms;
+}
+
+nav:hover {
+    border-bottom-color: #210084;
 }
 
 footer {
     justify-content: space-around;
     margin: auto 0 0 0;
+    border-top: transparent solid 2px;
+    transition: border-top-color 300ms;
+}
+
+footer:hover {
+    border-top-color: #210084;
 }
 
 .navbar-header {
