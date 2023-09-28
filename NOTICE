@@ -2,8 +2,8 @@ Here be Third-Party Licenses
 
 ===========================
 
-JetBrains Mono Font
-avaible @ https://www.jetbrains.com/lp/mono/
+JetBrains Mono Font by JetBrains s.r.o.
+available @ https://www.jetbrains.com/lp/mono/
 
 OFL.txt
 ---------------------------
@@ -116,3 +116,9 @@ AUTHORS.txt
     Philipp Nurullin <philipp.nurullin@jetbrains.com>
     Konstantin Bulenkov <kb@jetbrains.com>
 
+===========================
+
+reset.css by meyerweb
+available @ http://meyerweb.com/eric/tools/css/reset/
+
+No license was provided as the file is available under the public domain
