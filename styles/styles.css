@@ -13,12 +13,13 @@ body {
     padding: 32px;
     background-color: #12092D;
     display: flex;
+    flex-direction: row;
 }
 
 nav {
-
+    justify-content: space-between;
 }
 
 footer {
-
+    justify-content: space-around;
 }
