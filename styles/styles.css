@@ -8,6 +8,18 @@ body {
     flex-direction: column;
 }
 
+a:link, a:visited {
+    color: whitesmoke;
+}
+
+a:hover {
+    color: #9F7FFF;
+}
+
+a:active {
+    color: #6730FF;
+}
+
 .nav-common {
     margin: 0;
     padding: 32px;
