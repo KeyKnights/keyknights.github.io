@@ -101,3 +101,13 @@ a:active, .footer-link:active {
     display: flex;
     flex-direction: column;
 }
+
+.navbar-padding {
+    padding: 32px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-padding:before {
+    content: "This Should be Hidden";
+}
