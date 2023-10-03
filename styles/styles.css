@@ -17,6 +17,8 @@ body {
 }
 
 nav {
+    position: fixed;
+    width: 100vw;
     justify-content: space-between;
     border-bottom: transparent solid 2px;
     transition: border-bottom-color 300ms;
