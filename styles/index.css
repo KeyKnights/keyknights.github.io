@@ -20,7 +20,7 @@
 }
 
 .continue {
-    position: relative;
+    position: fixed;
     right: 1vh;
-    top: 32vh;
+    bottom: 18vh;
 }
