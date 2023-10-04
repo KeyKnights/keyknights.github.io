@@ -25,3 +25,28 @@
     bottom: 1vh;
     text-align: right;
 }
+
+.info-container {
+    width: 80%;
+    height: 65%;
+    background-color: #12092D;
+    margin: auto;
+    border-radius: 16px;
+    border: transparent solid 2px;
+    transition: border-top-color 300ms,
+                border-right-color 300ms,
+                border-bottom-color 300ms,
+                border-left-color 300ms;
+}
+
+.info {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /*background: url("../icons/icon_os.png") space;*/
+    background-size: 20vh;
+}
+
+.info-container:hover {
+    border-color: #210084;
+}
