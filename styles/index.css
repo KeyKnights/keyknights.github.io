@@ -18,3 +18,9 @@
     bottom: 48vh;
     left: 1vh;
 }
+
+.continue {
+    position: relative;
+    right: 1vh;
+    top: 32vh;
+}
