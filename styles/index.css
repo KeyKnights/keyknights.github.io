@@ -28,7 +28,6 @@
 
 .info-container {
     width: 80%;
-    height: 65%;
     background-color: #12092D;
     margin: auto;
     border-radius: 16px;
@@ -46,11 +45,12 @@
 }
 
 .info {
-    height: 100vh;
     display: flex;
     align-items: center;
     /*background: url("../icons/icon_os.png") space;*/
     /*background-size: 20vh;*/
+    padding-bottom: 17.5vh;
+    padding-top: 17.5vh;
 }
 
 .box-links {
@@ -135,8 +135,4 @@ ul {
     font-size: 1.5vw;
     padding-bottom: 4px;
     padding-left: 8px;
-}
-
-.role {
-    font-size: 0.75vw;
 }
