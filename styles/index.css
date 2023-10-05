@@ -41,6 +41,10 @@
                 border-left-color 300ms;
 }
 
+.info-container:hover {
+    border-color: #210084;
+}
+
 .info {
     height: 100vh;
     display: flex;
@@ -49,13 +53,16 @@
     /*background-size: 20vh;*/
 }
 
-.info-container:hover {
-    border-color: #210084;
-}
-
-.box-links, .box-team {
+.box-links {
     padding: 64px;
     width: 50%;
+    border-radius: 16px;
+    border-right: transparent solid 2px;
+    transition: border-right-color 300ms;
+}
+
+.box-links:hover {
+    border-right-color: #210084;
 }
 
 .info-title {
@@ -79,4 +86,16 @@ ul {
 .team-title {
     font-size: 3vw;
     font-weight: bold;
+}
+
+.box-team {
+    padding: 64px;
+    width: 50%;
+    border-radius: 16px;
+    border-left: transparent solid 2px;
+    transition: border-left-color 300ms;
+}
+
+.box-team:hover {
+    border-left-color: #210084;
 }
