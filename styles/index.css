@@ -13,7 +13,7 @@
     /*top: -100%*/
 }
 
-.sneaky {
+.bg-warning {
     position: relative;
     bottom: 48vh;
     left: 1vh;
@@ -32,6 +32,8 @@
     background-color: #12092D;
     margin: auto;
     border-radius: 16px;
+    display: flex;
+    flex-direction: row;
     border: transparent solid 2px;
     transition: border-top-color 300ms,
                 border-right-color 300ms,
@@ -44,7 +46,7 @@
     display: flex;
     align-items: center;
     /*background: url("../icons/icon_os.png") space;*/
-    background-size: 20vh;
+    /*background-size: 20vh;*/
 }
 
 .info-container:hover {
@@ -67,4 +69,8 @@ p {
 
 ul {
     padding-left: 18px;
+}
+
+.sneaky {
+    color: #12092D;
 }
