@@ -34,7 +34,7 @@
     border-radius: 16px;
     display: flex;
     flex-direction: row;
-    border: transparent solid 2px;
+    border: #210084 solid 2px;
     transition: border-top-color 300ms,
                 border-right-color 300ms,
                 border-bottom-color 300ms,
@@ -98,4 +98,45 @@ ul {
 
 .box-team:hover {
     border-left-color: #210084;
+}
+
+.profile-card:link, .profile-card:visited {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    background-color: #12092D;
+    border-radius: 16px;
+    border: #210084 solid 2px;
+    transition: border-top-color 300ms,
+                border-right-color 300ms,
+                border-bottom-color 300ms,
+                border-left-color 300ms,
+                background-color 300ms;
+}
+
+.profile-card:hover {
+    border-color: whitesmoke;
+    background-color: #210084;
+}
+
+.profile-text {
+    padding-left: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.pfp {
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+}
+
+.username {
+    font-size: 1.5vw;
+    padding-bottom: 4px;
+    padding-left: 8px;
+}
+
+.role {
+    font-size: 0.75vw;
 }
