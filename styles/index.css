@@ -71,7 +71,7 @@
     /*padding: 8px;*/
 }
 
-p {
+.description, .links {
     padding-bottom: 16px;
 }
 
