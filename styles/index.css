@@ -53,8 +53,9 @@
     border-color: #210084;
 }
 
-.box-links {
+.box-links, .box-team {
     padding: 64px;
+    width: 50%;
 }
 
 .info-title {
@@ -73,4 +74,9 @@ ul {
 
 .sneaky {
     color: #12092D;
+}
+
+.team-title {
+    font-size: 3vw;
+    font-weight: bold;
 }
