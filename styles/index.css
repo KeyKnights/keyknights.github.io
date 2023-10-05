@@ -19,6 +19,12 @@
     left: 1vh;
 }
 
+.title-center-bottom {
+    position: relative;
+    top: 48vh;
+    right: 1vh;
+}
+
 .continue {
     position: fixed;
     right: 1vh;
@@ -81,6 +87,10 @@ ul {
 
 .sneaky {
     color: #12092D;
+}
+
+.sneaky-bg {
+    color: #090416;
 }
 
 .team-title {
