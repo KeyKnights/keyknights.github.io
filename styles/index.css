@@ -114,6 +114,7 @@ ul {
     display: flex;
     flex-direction: row;
     padding: 16px;
+    margin-bottom: 32px;
     background-color: #12092D;
     border-radius: 16px;
     border: #210084 solid 2px;
